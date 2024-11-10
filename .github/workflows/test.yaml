@@ -10,7 +10,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: binaries
-          path:
+          path: |
             build/main
             build/tests
   tests:
